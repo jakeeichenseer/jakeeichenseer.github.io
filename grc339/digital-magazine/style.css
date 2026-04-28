@@ -1,0 +1,208 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header h1 a img {
+    max-width: 8em;
+    margin-top: 1.25em;
+    margin-left: 0.5rem;
+}
+
+div.container {
+    margin: auto;
+    max-width: 60em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(92, 118, 150);
+    font-family: sans-serif;
+    font-size: 1.10em;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+header nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section.mainstory a {
+    text-decoration: none;
+}
+
+section.mainstory a p {
+    color: rgb(56, 56, 56);
+    font-family: sans-serif;
+    font-size: 1.10em;
+    margin-bottom: 2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.mainstory a h2 {
+    color: rgb(92, 118, 150);
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.secondarystory a {
+    text-decoration: none;
+}
+
+section.secondarystory a p {
+    color: rgb(56, 56, 56);
+    font-family: sans-serif;
+    font-size: 1.10em;
+    margin-bottom: 2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.secondarystory a h2 {
+    color: rgb(92, 118, 150);
+    font-weight: bold;
+    font-size: 1.75em;
+    margin-top: 0.1em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.tertiarystory a {
+    text-decoration: none;
+}
+
+section.tertiarystory a h2 {
+    color: rgb(92, 118, 150);
+    font-weight: bold;
+    font-size: 1.25em;
+    border-top: 1px solid rgb(92, 118, 150);
+    padding-top: 0.5em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.tertiarystory a p {
+    color: rgb(56, 56, 56);
+    font-family: sans-serif;
+    font-size: 1.10em;
+    margin-bottom: 2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer {
+    background-color: rgb(92, 118, 150);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+}
+
+aside {
+    background-color: rgb(204, 207, 251);
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 2em;
+    padding-left: 0.5em;
+}
+
+figcaption {
+    color: rgb(103, 103, 103);
+    font-family: sans-serif;
+    font-size: 1.10em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-style: italic;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+h2.title {
+    color: rgb(92, 118, 150);
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+}
+
+p.paragraph {
+    color: rgb(56, 56, 56);
+    font-family: sans-serif;
+    font-size: 1.10em;
+    margin-bottom: 2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 50em) {
+
+	nav ul li {
+		display: inline;
+        margin-right: 1em;
+	}
+
+    header h1 a img {
+        margin-left: 0rem;
+    }
+
+    header nav ul li a {
+        margin-left: 0rem;
+    }
+
+    figcaption {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    h2.title {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    p.paragraph {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    section.mainstory a h2 {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    section.mainstory a p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    section.secondarystory a h2 {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    section.secondarystory a p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    section.tertiarystory a h2 {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    section.tertiarystory a p {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
